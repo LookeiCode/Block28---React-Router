@@ -13,15 +13,15 @@ function App() {
 
 
       <div id="navbar">
-        <Link to="/blue">
+        <Link to="/blue" id="navItem">
           Blue
         </Link>
 
-        <Link to="/">
+        <Link to="/" id="navItem">
           Home
         </Link>
 
-        <Link to="/red">
+        <Link to="/red" id="navItem">
           Red
         </Link>
 
@@ -43,6 +43,19 @@ function App() {
         />
       </Routes>
       </div>
+      <footer id="footer">
+      <Link to="/blue" id="navItem">
+          Blue
+        </Link>
+
+        <Link to="/" id="navItem">
+          Home
+        </Link>
+
+        <Link to="/red" id="navItem">
+          Red
+        </Link>
+      </footer>
     </div>
   )
 }
